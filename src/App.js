@@ -11,6 +11,7 @@ export default function App() {
        */}
       <h1 style={isDone ? strikeThrough : null}>State </h1>
       <h1 style={isDone && strikeThrough}>State </h1>
+      {/* change background-color using btn */}
       <Strike />
     </div>
   );
