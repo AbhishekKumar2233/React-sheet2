@@ -1,5 +1,6 @@
 import "./styles.css";
 import Strike from "./Strike";
+// import Hook1 from "./Hook1";
 
 export default function App() {
   var isDone = true;
@@ -13,6 +14,7 @@ export default function App() {
       <h1 style={isDone && strikeThrough}>State </h1>
       {/* change background-color using btn */}
       <Strike />
+      {/* <Hook1 /> */}
     </div>
   );
 }
