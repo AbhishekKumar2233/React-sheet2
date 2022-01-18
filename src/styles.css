@@ -6,7 +6,15 @@ button {
   margin: 5px;
   padding: 2px 5px;
   border: 2px solid black;
-  color: black;
+  color: #fff;
   font-weight: 600;
-  background-color: transparent;
+  background-color: #000;
+}
+.container {
+  font-size: 30px;
+}
+.container button {
+  font-size: 20px;
+  background-color: turquoise;
+  color: #000;
 }
