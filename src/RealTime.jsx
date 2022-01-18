@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 
 export default function RealTime() {
+  const [time, setTime] = useState(clock);
+
   //setinterval function used to show data every second
   setInterval(timefunc, 1000);
 
   var clock = new Date().toLocaleTimeString();
-
-  const [time, setTime] = useState(clock);
 
   function timefunc() {
     var newclock = new Date().toLocaleTimeString();
