@@ -9,8 +9,8 @@ function strikebtn1() {
 export default function Strike() {
   return (
     <div>
-      <button onClick={strikebtn}> Change Background color</button>
-      <button onClick={strikebtn1}> Remove Background color</button>
+      <button onClick={strikebtn}>Change Background color</button>
+      <button onClick={strikebtn1}>Remove Background color</button>
     </div>
   );
 }
